@@ -1,0 +1,8 @@
+[package]
+name = "tetris"
+version = "0.1.0"
+authors = ["Ernad Husremovic <hernad@bring.out.ba>"]
+build = "build.rs"
+
+[dependencies]
+sdl2 = { git = "https://github.com/Rust-SDL2/rust-sdl2" }
